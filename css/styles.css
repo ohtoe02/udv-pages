@@ -23,6 +23,10 @@ body {
   background-color: #302E2F;
 }
 
+.navigation>a {
+  height: 100%;
+}
+
 .logo {
   height: 100%;
 }
@@ -113,7 +117,6 @@ label {
 
 label > input,select {
   margin-left: 16px;
-
 }
 
 input, select {
