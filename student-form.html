@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UDV</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="navigation">
+  <img class="logo" src="assets/logo.png" alt="UDV - logo">
+</div>
+
+<h2 class="header" style="margin: 32px auto;">Заполните анкету</h2>
+
+<div class="container">
+  <form class="student-form">
+    <div>
+      <label>
+        Дата рождения:
+        <input type="date" name="birthdate" placeholder="00.00.0000">
+      </label>
+      <label>
+        Университет:
+        <input type="text" name="university" placeholder="">
+      </label>
+      <label>
+        Направление:
+        <select name="course">
+          <option>Направление 1</option>
+          <option>Направление 2</option>
+          <option>Направление 3</option>
+          <option>Направление 4</option>
+        </select>
+      </label>
+      <label>
+        Телефон:
+        <input type="text" name="phone" placeholder="">
+      </label>
+    </div>
+    <div>
+      <label>
+        <textarea placeholder="О себе" name="about_me"></textarea>
+      </label>
+    </div>
+    <button class="submit-button" type="submit">Отправить анкету</button>
+  </form>
+</div>
+
+
+</body>
+</html>
