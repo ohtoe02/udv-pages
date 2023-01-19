@@ -25,12 +25,21 @@
       </label>
       <label>
         Направление:
+        <!-- Пусть courses = [{"Направление 1"}, {"Направление 2"}...]-->
+        <select name="courses">
+          {% for course in courses%}
+          <option value = "{{ course }}}" ></option>
+          {% endfor %}
+        </select>
+
+        <!-- Старый код
         <select name="course">
           <option>Направление 1</option>
           <option>Направление 2</option>
           <option>Направление 3</option>
           <option>Направление 4</option>
         </select>
+        -->
       </label>
       <label>
         Телефон:
